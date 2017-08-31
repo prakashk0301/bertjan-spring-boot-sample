@@ -28,7 +28,7 @@ node {
         junit allowEmptyResults: true, testResults: '**/target/**/TEST*.xml'
     }
 
-    stage('Done') {
+    stage('Deploy') {
     }
     //stage('Deploy') {
     //    // Depends on the 'Credentials Binding Plugin'
